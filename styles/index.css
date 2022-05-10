@@ -38,7 +38,7 @@ header {
 }
 
 .logo {
-  width: 120px;
+  /* width: 108px; */
 }
 /* original */
 /* footer {
@@ -91,14 +91,13 @@ nav {
   flex-direction: column;
   box-shadow: 0px 8px 12px rgba(34, 37, 41, 0.08);
   position: relative;
-  z-index: 10px;
 }
 
 /* 탑배너 */
 .top-banner__content {
   width: 1024px;
   margin: 0 auto;
-  padding: 100px 100px 0 100px;
+  padding: 80px 100px 0 100px;
   background-color: #f8f9fa;
 }
 
@@ -128,7 +127,7 @@ nav {
   font-size: 20px;
   line-height: 32px;
   text-align: center;
-  padding: 30px;
+  padding: 30px 0 32px 0;
   color: #4a5056;
 }
 
@@ -166,7 +165,7 @@ nav {
 .top-banner__image {
   width: 810px;
   object-fit: contain;
-  margin-top: 60px;
+  margin-top: 72px;
 }
 
 /* section 2 */
@@ -188,15 +187,13 @@ nav {
 
 /* section 3 */
 .section3__online {
-  margin-top: -88px;
   background-color: #fff2e3;
   height: 500px;
-  padding: 10px;
   position: relative;
 }
 .center-banner__input-container {
   display: flex;
-  margin: -5px 600px;
+  margin: 0px 600px;
 }
 .center-banner__input {
   padding-left: 30px;
@@ -230,6 +227,15 @@ nav {
 /* section7 */
 .section7__grow {
   background: #f8f9fa;
+}
+
+.title4 {
+  font-size: 44px;
+  line-height: 58px;
+  text-align: center;
+  color: #222529;
+  padding: 120px 0 80px 0;
+  font-weight: 700;
 }
 
 .number {
@@ -270,7 +276,7 @@ nav {
 /* section8 */
 .frame304 {
   background-color: white;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 
 /*section9*/
@@ -290,7 +296,7 @@ nav {
   line-height: 60px;
   text-align: center;
   color: white;
-  padding: 160px 0 80px 0;
+  padding: 200px 0 80px 0;
 }
 
 .bottom-banner__input {
@@ -397,7 +403,7 @@ footer {
 
 .footer__bottom {
   border-top: 1px solid #eaecef;
-  padding-top: 32px;
+  padding: 40px;
   width: 100%;
   text-align: center;
   font-size: 16px;
