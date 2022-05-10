@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/reset.css" />
+  <link rel="stylesheet" href="./styles/index.css" />
+  <!-- tab-title -->
+  <title>start up school landing page</title>
+  <script>
+    function colorSvgIcons() {
+      let colorIcon = getComputedStyle(
+        document.documentElement
+      ).getPropertyValue("--footer-font-main");
+      document
+        .querySelectorAll(".external-link__icon > svg > path")
+        .forEach((pathBody) => pathBody.setAttribute("fill", colorIcon));
+
+      let colorSymbol = getComputedStyle(
+        document.documentElement
+      ).getPropertyValue("--footer-font-sub");
+      document
+        .querySelectorAll(".svg-symbol")
+        .forEach((pathBody) => pathBody.setAttribute("fill", colorSymbol));
+    }
+  </script>
+</head>
+
+<body onload="colorSvgIcons()">
+  <!-- header -->
+  <header>
+    <div class="header__logo center">
+      <!-- 로고 이미지 -->
+      <img class="logo" src="./statics/images/logo/해봄.png" />
+    </div>
+    <nav class="center">
+      <!-- header-button -->
+      <ul class="nav">
+        <li class="nav__link bold"><a
+            href="https://local-oriole-6fb.notion.site/Floway-e05843c9734349adb72f31c5eeb5f102">About</a></li>
+        <li class="nav__link bold"><a
+            href="https://local-oriole-6fb.notion.site/Floway-e05843c9734349adb72f31c5eeb5f102"> Team</a></li>
+        <li class="nav__link bold"><a
+            href="https://local-oriole-6fb.notion.site/Floway-e05843c9734349adb72f31c5eeb5f102"> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <!-- banner -->
+    <div class="top-banner">
+      <div class="top-banner__content">
+        <p class="top-banner__title bold">
+          <!-- 띄어쓰기 포함 최대17자 -->
+          꽃 시장 시세를 검색하고
+          <br />
+          <!-- 띄어쓰기 포함 최대17자 -->
+          온라인으로 꽃을 사입해 보세요
+        </p>
+        <p class="top-banner__subtitle regular">
+          <!-- 띄어쓰기 포함 27자 -->
+          꽃 시장에 있는 모든 꽃의 시세와 거래 현황을 검색할 수 있어요 <br />
+          꽃 시장에서 발품 파는 시간을 줄이고, 언제 어디서나 편하게 사입하세요
+        </p>
+
+        <div class="top-banner__input-container">
+          <a href="https://projectlion.io/">
+            <input type="text" class="top-banner__input" placeholder="🔍  사입 계획이 있는 꽃을 검색해 보세요" />
+            <div class="top-banner__search-button center bold">
+              <!-- 띄어쓰기 포함 16자 -->
+              검색하기
+            </div>
+          </a>
+        </div>
+
+        <!-- 배너 이미지 -->
+        <img src="./statics/images/top-banner/iMac.png" class="top-banner__image" />
+      </div>
+    </div>
+    <!-- section2__말풍선 -->
+    <section id="section2__why">
+      <div class="section-title">
+        <img class="frame290" src="./statics/images/promotion-banner/Frame 290.png" />
+      </div>
+    </section>
+
+    <!-- section3__이제는 온라인으로 -->
+    <section class="section3__online">
+      <p class="title bold">
+        <!-- 띄어쓰기 포함 최대17자 -->
+        이제는, 온라인으로 쉽고 빠르게
+        <br />
+        <!-- 띄어쓰기 포함 최대17자 -->
+        꽃 시장 시세와 거래 현황을 확인해 보세요
+      </p>
+
+      <div class="center-banner__input-container">
+        <a href="https://projectlion.io/">
+          <input type="text" class="center-banner__input" placeholder="🔍 사입 계획이 있는 꽃을 검색해 보세요" />
+          <div class="top-banner__search-button center bold">
+            <!-- 띄어쓰기 포함 16자 -->
+            검색하기
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- section4__쉬운검색 -->
+    <section id="section4__search">
+      <div class="section-title">
+        <img class="frame291" src="./statics/images/promotion-banner/Frame 291.png" />
+      </div>
+    </section>
+
+    <!-- section5__빠른구매 -->
+    <section id="section5__search">
+      <div class="section-title">
+        <img class="frame328" src="./statics/images/promotion-banner/Frame 328.png" />
+      </div>
+    </section>
+
+    <!-- section6__후기 -->
+    <section id="section6__review">
+      <div class="section-title">
+        <img class="frame329" src="./statics/images/promotion-banner/Frame 329.png" />
+      </div>
+    </section>
+
+    <!-- section7__빠르게 성장 -->
+    <section class="section7__grow">
+      <p class="title bold">
+        <!-- 띄어쓰기 포함 최대17자 -->
+        플로웨이는 빠르게 서비스를 확장하고
+        <br />
+        <!-- 띄어쓰기 포함 최대17자 -->
+        매일 지속적으로 업데이트하고 있어요
+      </p>
+      <div class="number">
+        <div class="box">
+          <p class="number_name">등록된 꽃 종류</p>
+          <p class="title2 bold">3,649종</p>
+        </div>
+        <div class="box">
+          <p class="number_name">최근 업데이트</p>
+          <p class="title2 bold">22.05.10</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section8__비전 -->
+    <section id="section6__review">
+      <div class="section-title">
+        <img class="frame304" src="./statics/images/promotion-banner/Frame 304.png" />
+      </div>
+    </section>
+
+    <!-- section9__꽃거래 -->
+    <section class="section9__flower">
+      <div class="box-container">
+        <p class="title3 bold">
+          <!-- 띄어쓰기 포함 최대17자 -->
+          꽃 거래의 쉽고 빠른 길, 플로웨이에서
+          <br />
+          <!-- 띄어쓰기 포함 최대17자 -->
+          꽃 시장 시세와 거래 현황을 확인하고
+          <br />
+          합리적인 가격에 원하는 꽃을 사입해 보세요!
+        </p>
+
+        <div class="bottom-banner__input-container">
+          <a href="https://projectlion.io/">
+            <input type="text" class="bottom-banner__input" placeholder="🔍 사입 계획이 있는 꽃을 검색해 보세요" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <div class="footer__top">
+        <div class="footer__top__logo">
+          <!-- 로고 이미지 -->
+          <img class="footer__img" src="./statics/images/logo/해봄.png" />
+        </div>
+        <div class="footer__top__info">
+          <div class="footer__top__info__contact">
+            <p class="footer__top__info__title bold"> About </p>
+            <img class="line" src="./statics/images/icons/Rectangle 443.png">
+            <div class="footer__top__info__detail">
+              <p class="footer-text-wrapper semi-bold">
+                <a href="https://local-oriole-6fb.notion.site/Floway-e05843c9734349adb72f31c5eeb5f102">
+                  회사소개
+                </a>
+
+              </p>
+              <p class="footer-text-wrapper semi-bold">
+                <a
+                  href="https://local-oriole-6fb.notion.site/Floway-e05843c9734349adb72f31c5eeb5f102#57e839440bbd48928beccd1a6b5b9bde">정보제공안내</a>
+
+              </p>
+            </div>
+          </div>
+          <div class="footer__top__info__external-link">
+            <p class="footer__top__info__title bold"> Contact </p>
+            <img class="line" src="./statics/images/icons/Rectangle 443.png">
+            <ul>
+              <li class="external-link__wrapper">
+                <div class="external-link__icon">
+                  <img src="./statics/images/icons/instagram.png" />
+                </div>
+                <a href="https://www.instagram.com/floway.official/">
+                  <p class="external-link__name"> Instagram </p>
+                </a>
+              </li>
+              <li class="external-link__wrapper">
+                <div class="external-link__icon">
+                  <img src="./statics/images/icons/kakao talk.png" />
+                </div>
+                <a href="http://pf.kakao.com/_sPNeb">
+                  <p class="external-link__name"> Kakao</p>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <div class="footer__bottom">
+    <img src="./statics/images/icons/Footer_Copy.png" />
+  </div>
+</body>
+
+</html>
