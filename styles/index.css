@@ -55,7 +55,7 @@ a {
 }
 
 /* visited - 한번 클릭하거나 전에 클릭한적 있을 경우 #ff7a00 설정 */
-a:visited {
+a:hover {
   color: #ff7a00;
 }
 /* 헤더 */
