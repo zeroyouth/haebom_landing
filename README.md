@@ -2,5 +2,6 @@
 
 해봄 랜딩페이지 완성
 
-- [해봄 랜딩페이지](https://zeroyouth.github.io/habom_landingPage/)
-  [image](https://user-images.githubusercontent.com/86909942/167387117-40076dfc-f9d1-4bf6-9bd1-1b811f5e38be.png)
+- [해봄 랜딩페이지](https://zeroyouth.github.io/haebom_landing/)
+
+![haebom](https://user-images.githubusercontent.com/86909942/167584957-8f997d3b-0b44-4733-aa13-704c40763a83.gif)
